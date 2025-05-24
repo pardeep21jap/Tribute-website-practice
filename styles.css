@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.container {
+background-color: #e5e5fd;
+min-height: 100vh;
+border: 10px solid #1d1e4c;
+}
+
+.contant{
+  max-width: 150vh;
+  margin: 0 auto;
+}
+
+img {
+height: 100px;
+border-radius: 50%;
+}
+
+.header{
+  display: flex;
+}
+
+
+.name{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 35px;
+}
+
+.age{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+.parahead{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+
+.bio{
+  margin-top: 30px;
+}
+.biolist{
+  padding: 30px;
+}
