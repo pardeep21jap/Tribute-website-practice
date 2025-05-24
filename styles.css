@@ -16,14 +16,19 @@ border: 10px solid #1d1e4c;
 }
 
 img {
-height: 100px;
+height: 200px;
 border-radius: 50%;
 }
 
 .header{
+  margin-top: 30px;
   display: flex;
+  justify-content: space-between;
 }
 
+.nameage{
+  align-content: flex-end;
+}
 
 .name{
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -33,18 +38,36 @@ border-radius: 50%;
 .age{
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 25px;
+  text-align: end;
 }
 
 .parahead{
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 40px;
 }
+.para{
+  font-size: 16px;
+  line-height: 25px;
+}
 
 .bio{
   margin-top: 30px;
+  margin-bottom: 30px;
 }
+.biohead{
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
 .biolist{
-  padding: 30px;
+  margin-left: 30px;
+}
+.biolist li{
+  margin-bottom: 10px;
+}
+.footer{
+  text-align: end;
+  margin-bottom: 40px;
 }
